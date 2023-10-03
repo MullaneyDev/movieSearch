@@ -69,7 +69,10 @@ const Movie = ({ movieInfo, favFunc }) => {
         <p className="plot">{movie.Plot}</p>
         <p className="awardsTitle">Awards</p>
         <p className="awards">{movie.Awards}</p>
-        <button className="favouritesButton" onClick={() => favFunc(movieInfo)}>
+        <button
+          className="favouritesButtonRemove"
+          onClick={() => favFunc(movieInfo)}
+        >
           Remove from Favourites
         </button>
       </Modal>

@@ -8,10 +8,16 @@
 nav {
   display: flex;
   justify-content: center;
+  background-color: #464545;
 }
 nav a {
   margin: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  background-color: cadetblue;
 }
 .brandsig {
   display: flex;
@@ -227,4 +233,11 @@ nav a {
   grid-column: 2/4;
   grid-row: 8;
   margin: 0px;
+  background-color: lightgreen;
+}
+.favouritesButtonRemove {
+  grid-column: 2/4;
+  grid-row: 8;
+  margin: 0px;
+  background-color: lightcoral;
 }
